@@ -1,0 +1,359 @@
+@media only screen and (max-width: 75.8125em) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  .hero img {
+    width: 45%;
+  }
+
+  .about-textbox,
+  .service-textbox {
+    width: 53%;
+  }
+
+  .about-container img,
+  .service-container img {
+    width: 43%;
+  }
+
+  .about-container,
+  .service-container {
+    align-items: center;
+  }
+
+  .solution-box h3 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 69.375em) {
+  .nav-list {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: -100%;
+    right: 0;
+    background-color: #fff;
+    transition: all 300ms ease;
+    z-index: 1000;
+  }
+
+  .nav-list.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin-right: 0;
+  }
+
+  .nav-list li:not(:last-child) {
+    margin-bottom: 4rem;
+  }
+
+
+  #menu-icon {
+    display: block;
+  }
+
+  #menu-icon i.active:before {
+    content: '\f00d';
+    color: #1C0C2A;
+    margin-right: 50%;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-textbox {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero img {
+    width: 55%;
+    align-self: center;
+  }
+
+  .checkmark {
+    justify-content: center;
+  }
+
+  /* ABOUT............ */
+  .about h2,
+  .service h2,
+  .testimonial h2 {
+    font-size: 4rem;
+  }
+
+  .about-container,
+  .service-container {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .about-textbox,
+  .service-textbox {
+    width: 100%;
+  }
+
+  .about-container img,
+  .service-container img {
+    width: 50%;
+  }
+
+  .review-text {
+    font-size: 1.8rem;
+  }
+
+  .about-p,
+  .service-p,
+  .testimonial-p {
+    font-size: 2rem;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer-textbox {
+    width: 100%;
+  }
+
+  .footer-social {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .footer-list {
+    width: 50%;
+  }
+
+  .footer-list:not(:last-child) {
+    margin-bottom: 4rem;
+  }
+}
+
+@media only screen and (max-width: 55.875em) {
+
+  .about h2,
+  .service h2,
+  .testimonial h2 {
+    font-size: 3rem;
+  }
+
+  .faq-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .faq-box {
+    width: 100%;
+  }
+
+  .solution {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .solution-box {
+    width: 100%;
+  }
+
+  .solution-box a {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    text-align: center;
+    display: block;
+  }
+
+  .about-container img,
+  .service-container img {
+    width: 60%;
+  }
+
+  .quote {
+    flex-direction: column;
+  }
+
+  .quote-textbox {
+    width: 100%;
+
+  }
+
+  .quote-textbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .quote-textbox img {
+    width: 40%;
+  }
+
+  .qoute-box {
+    width: 50%;
+  }
+
+  form {
+    align-self: center;
+    width: 70%;
+    margin-top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 50.1875em) {
+
+  section,
+  footer {
+    padding: 10rem 3rem 10rem 3rem;
+    overflow-x: hidden;
+  }
+
+  footer {
+    padding-bottom: 0 !important;
+  }
+
+  nav {
+    padding: 3.3rem 3rem;
+  }
+
+  .hero {
+    padding: 0 3rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+    line-height: 7rem;
+  }
+
+  .testimonial-header {
+    width: 70%;
+  }
+
+  .about-p,
+  .service-p,
+  .testimonial-p {
+    font-size: 1.8rem;
+  }
+
+  .qoute-box {
+    width: 100%;
+  }
+
+  .quote-textbox img {
+    display: none;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  .faq h2 {
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+}
+
+@media only screen and (max-width: 38.9375em) {
+  h1 {
+    line-height: 5.5rem;
+  }
+
+  .hero-p {
+    font-size: 1.8rem;
+  }
+
+  .checkmark p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+
+  .checkmark p:not(:last-child) {
+    margin-right: 3rem;
+  }
+
+  .hero img {
+    width: 90%;
+  }
+
+  .about-container,
+  .service-container {
+    margin-top: 5rem;
+  }
+
+  .about-container img,
+  .service-container img {
+    width: 90%;
+  }
+
+  .about-textbox h3,
+  .service-textbox h3 {
+    font-size: 2.8rem;
+  }
+
+  .user h3 {
+    font-size: 2rem;
+  }
+
+  .user p {
+    font-size: 1.6rem;
+  }
+
+  .stars {
+    margin: 3rem 0;
+  }
+
+  .stars i {
+    font-size: 1.6rem;
+  }
+
+  .faq h2 {
+    font-size: 3.5rem;
+  }
+
+  .faq-p {
+    font-size: 2rem;
+  }
+
+  .quote-textbox h3 {
+    font-size: 3.6rem;
+  }
+
+  .quote-textbox p {
+    font-size: 1.8rem;
+  }
+
+  .about h2,
+  .service h2,
+  .testimonial h2 {
+    font-size: 2.5rem;
+  }
+
+  .testimonial-header {
+    width: 75%;
+  }
+
+  .about-p,
+  .service-p,
+  .testimonial-p {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 30.375em) {
+  .solution-box a {
+    width: 70%;
+  }
+
+  html {
+    font-size: 50%;
+  }
+}

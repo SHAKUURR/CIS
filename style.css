@@ -47,6 +47,14 @@ nav {
   /* overflow-x: hidden; */
 }
 
+#menu-icon {
+  display: none;
+  color: #E5060C;
+  z-index: 10001;
+  cursor: pointer;
+  font-size: 2.3rem;
+}
+
 a {
   text-decoration: none;
 }
@@ -56,7 +64,7 @@ a {
 }
 
 .nav-box {
-  flex-basis: 75%;
+  /* flex-basis: 75%; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -175,7 +183,6 @@ h1 {
 .checkmark {
   display: flex;
   align-items: center;
-
 }
 
 .checkmark p {
@@ -291,7 +298,7 @@ h1 {
 /* SOLUTIONS............ */
 .solution {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
 }
 

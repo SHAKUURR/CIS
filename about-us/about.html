@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="media.css">
     <script src="https://kit.fontawesome.com/f698b33fa3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" type="text/css"
@@ -16,20 +17,22 @@
       <nav class="nav-section">
         <a href="#"><img src="/img/logo.png" alt="logo" class="logo"></a>
         <div class="nav-box">
-          <ul>
+          <ul class="nav-list">
             <li><a href="/index.html" class="nav-link">Home</a></li>
             <li><a href="about.html" class="nav-link home">About us</a></li>
             <li><a href="/service/service.html" class="nav-link">Services</a></li>
             <li><a href="/projects/project.html" class="nav-link">Projects</a></li>
             <li><a href="/testimony/testimony.html" class="nav-link">Testimonials</a></li>
+
+            <div class="nav-btn">
+              <a href="#" class="request">Request a Quote</a>
+            </div>
           </ul>
-          <div class="nav-btn">
-            <a href="#" class="request">Request a Quote</a>
-          </div>
+
         </div>
-        <!-- <div id="menu-icon" class="nav-link">
-            <i class="fa-solid fa-bars fa-lg"></i>
-          </div> -->
+        <div id="menu-icon" class="nav-link">
+          <i class="fa-solid fa-bars fa-lg"></i>
+        </div>
       </nav>
       <div class="hero">
         <h1>Caring for Your Safety and Security</h1>
@@ -129,10 +132,13 @@
     <section id="quote">
       <div class="quote">
         <div class="quote-textbox">
-          <h3>Request A Quote</h3>
-          <p>Enhance your safety with smart prevention. Request a quote today for a custom security solution that
-            protects what
-            matters most.</p>
+          <div class="qoute-box">
+            <h3>Request A Quote</h3>
+            <p>Enhance your safety with smart prevention. Request a quote today for a custom security solution that
+              protects what
+              matters most.</p>
+          </div>
+
           <img src="/img/quote.png" alt="Smart-home">
         </div>
         <form>
@@ -151,7 +157,7 @@
     <footer>
       <div class="footer">
         <div class="footer-textbox">
-          <img src="img/footer-logo.png" alt="">
+          <img src="/img/footer-logo.png" alt="">
           <p><span>CIS Ltd</span> puts the power of home security and automation in the palm of your hand, ensuring you
             have complete
             control and
