@@ -34,7 +34,6 @@ footer {
 header {
   /* min-height: 100vh; */
   overflow: hidden;
-  height: 100vh;
 }
 
 nav {
@@ -48,6 +47,14 @@ nav {
   /* overflow-x: hidden; */
 }
 
+#menu-icon {
+  display: none;
+  color: #2D3588;
+  z-index: 10001;
+  cursor: pointer;
+  font-size: 2.3rem;
+}
+
 a {
   text-decoration: none;
 }
@@ -57,7 +64,7 @@ a {
 }
 
 .nav-box {
-  flex-basis: 75%;
+  /* flex-basis: 75%; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -89,10 +96,10 @@ a {
 }
 
 .nav-box ul li a:hover {
-  color: #008000;
+  color: #2D3588;
 }
 
-.nav-box ul li:not(:last-child) {
+.nav-box ul li {
   margin-right: 4rem;
 }
 

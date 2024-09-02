@@ -1,4 +1,5 @@
 @media only screen and (max-width: 69.375em) {
+
   .nav-list {
     position: fixed;
     flex-direction: column;
@@ -62,23 +63,11 @@
     margin-bottom: 4rem;
   }
 
-
 }
 
-@media only screen and (max-width: 64.4375em) {
-  .who {
-    flex-direction: column-reverse;
-    gap: 5rem;
-  }
+/* @media only screen and (max-width: 64.4375em){
 
-  .who img {
-    width: 60%;
-  }
-
-  .who-textbox {
-    width: 100%;
-  }
-}
+} */
 
 @media only screen and (max-width: 55.875em) {
 
@@ -102,39 +91,6 @@
 
   .hero h1 {
     width: 80%;
-  }
-
-  .goal-box {
-    flex-direction: column;
-    align-items: center;
-    gap: 4rem;
-  }
-
-  .goal {
-    width: 100%;
-  }
-
-  .mission-box {
-    flex-direction: column;
-    align-items: center;
-    gap: 5rem;
-  }
-
-  .mission-container {
-    width: 100%;
-  }
-
-  .mission-box img {
-    width: 80%;
-  }
-
-  .mission-container a {
-    margin-right: auto;
-    margin-left: auto;
-    width: 70%;
-    text-align: center;
-    display: block;
-
   }
 
   .quote {
@@ -174,10 +130,6 @@
     line-height: 7rem;
   }
 
-  .who img {
-    width: 80%;
-  }
-
   .qoute-box {
     width: 100%;
   }
@@ -189,28 +141,21 @@
   form {
     width: 90%;
   }
+}
 
-  .gallery-p {
+@media only screen and (max-width: 38.9375em) {
+  .quote-textbox h3 {
+    font-size: 3.6rem;
+  }
+
+  .quote-textbox p {
     font-size: 1.8rem;
   }
-
-  .gallery-box h2 {
-    font-size: 3.5rem;
-  }
-
 }
 
 @media only screen and (max-width: 35.4375em) {
   .hero h1 {
     font-size: 4.3rem;
-  }
-
-  .mission-box img {
-    width: 100%;
-  }
-
-  .who img {
-    width: 100%;
   }
 }
 
